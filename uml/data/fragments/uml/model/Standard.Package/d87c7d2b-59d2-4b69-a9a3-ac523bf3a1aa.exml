@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Domain Model" version="4">
+  <OBJECT>
+    <ID name="Domain Model" mc="Standard.Package" uid="d87c7d2b-59d2-4b69-a9a3-ac523bf3a1aa"/>
+    <PID name="BA" mc="Standard.Package" uid="6a4da287-5a9b-496e-9484-1048973bd50e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Domain Model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="projects" mc="Standard.InformationFlow" uid="eee0e6a6-025c-4341-9b01-d6e6126ea503"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[projects]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="User" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Projects Dashboard" mc="Standard.Class" uid="173265c1-e4ff-42de-bceb-c0a9117b7da5"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="userStories" mc="Standard.InformationFlow" uid="652f04b4-c58c-45c5-917e-89d73e947618"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[userStories]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Backlog" mc="Standard.Class" uid="eb9de7fc-0339-477f-bc5c-948a9d98d5e3"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Backlog Page" mc="Standard.Class" uid="8e06465a-3207-40cf-8c0d-d498fe5b709c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="userStory" mc="Standard.InformationFlow" uid="83f7bb56-5dce-44f7-a6b8-1a5bd4ce8da0"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[userStory]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="User Story" mc="Standard.Class" uid="78b45052-e328-42d9-8921-1e98422ced4f"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="User Story Page" mc="Standard.Class" uid="de8c65ae-859d-4c0e-a675-a545a7ab7920"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="user" mc="Standard.InformationFlow" uid="8128cbbe-741e-4c6d-b950-12e436766bb3"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[user]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Sign up Page" mc="Standard.Class" uid="2e8ad8c5-6e83-4e8d-a420-97fdf61891fb"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="User" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="role list" mc="Standard.InformationFlow" uid="b05ca43b-d5c3-4bcb-ac5e-3c9563b3e5cf"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[role list]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Role" mc="Standard.Class" uid="18faccd1-2486-40f6-a555-017050aa4440"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Roles Page" mc="Standard.Class" uid="baf820a2-c3c2-4c93-a7ca-815d7e6d282f"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="permissions" mc="Standard.InformationFlow" uid="0708694f-165c-48f5-9b4b-8a04c122527f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[permissions]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Role" mc="Standard.Class" uid="18faccd1-2486-40f6-a555-017050aa4440"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Role Section" mc="Standard.Class" uid="72b8a1b8-be5a-443c-9c42-0572f5eb3e53"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="User Story" mc="Standard.Class" uid="78b45052-e328-42d9-8921-1e98422ced4f"/>
+        <COMPID name="User" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
+        <COMPID name="Project" mc="Standard.Class" uid="085834a3-4e1f-4902-b30d-194d58d8f134"/>
+        <COMPID name="Projects Dashboard" mc="Standard.Class" uid="173265c1-e4ff-42de-bceb-c0a9117b7da5"/>
+        <COMPID name="Backlog" mc="Standard.Class" uid="eb9de7fc-0339-477f-bc5c-948a9d98d5e3"/>
+        <COMPID name="Backlog Page" mc="Standard.Class" uid="8e06465a-3207-40cf-8c0d-d498fe5b709c"/>
+        <COMPID name="User Story Page" mc="Standard.Class" uid="de8c65ae-859d-4c0e-a675-a545a7ab7920"/>
+        <COMPID name="Login Page" mc="Standard.Class" uid="f642344c-24e3-487b-b560-1bf5685f589a"/>
+        <COMPID name="Sign up Page" mc="Standard.Class" uid="2e8ad8c5-6e83-4e8d-a420-97fdf61891fb"/>
+        <COMPID name="Roles Page" mc="Standard.Class" uid="baf820a2-c3c2-4c93-a7ca-815d7e6d282f"/>
+        <COMPID name="Role Section" mc="Standard.Class" uid="72b8a1b8-be5a-443c-9c42-0572f5eb3e53"/>
+        <COMPID name="Role" mc="Standard.Class" uid="18faccd1-2486-40f6-a555-017050aa4440"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Domain Model" mc="Standard.ClassDiagram" uid="3571199f-812c-4eed-9fe8-762a5aacc2f2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

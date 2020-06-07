@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Robustness Diagram" version="4">
+  <OBJECT>
+    <ID name="Robustness Diagram" mc="Infrastructure.Profile" uid="dad1ae70-2a67-4e24-ba6c-02b99599cc6d"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="ce0b56a2-13f4-4bea-af42-9dbd8b799027"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Robustness Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="Boundary" mc="Infrastructure.Stereotype" uid="c802cf87-c87d-4cde-ab00-bda13d9ac3f0"/>
+        <COMPID name="Controller" mc="Infrastructure.Stereotype" uid="1735064c-bb1b-4050-9862-7fa13286911d"/>
+        <COMPID name="Entity" mc="Infrastructure.Stereotype" uid="3627c7f7-647e-4c5e-8abf-e4fa460bdf68"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

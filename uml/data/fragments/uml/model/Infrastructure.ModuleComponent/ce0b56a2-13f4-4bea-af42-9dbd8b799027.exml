@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LocalModule" version="4">
+  <OBJECT>
+    <ID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="ce0b56a2-13f4-4bea-af42-9dbd8b799027"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">0</ATT>
+      <ATT name="MinVersion">0</ATT>
+      <ATT name="MinMinVersion"></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"></ATT>
+      <ATT name="Name"><![CDATA[LocalModule]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedProfile">
+        <COMPID name="HTTP Status Codes" mc="Infrastructure.Profile" uid="7e541e89-9e75-490f-93a6-5ff0aae0acf7"/>
+        <COMPID name="HTTP Methods" mc="Infrastructure.Profile" uid="0068b5ea-cc6b-45ed-88b5-fa3a68dc3875"/>
+        <COMPID name="Robustness Diagram" mc="Infrastructure.Profile" uid="dad1ae70-2a67-4e24-ba6c-02b99599cc6d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="200 OK" mc="Infrastructure.Stereotype" uid="e4c0517f-d2fe-47eb-9ba0-ac0b15b47f38"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HTTP Methods" version="4">
+  <OBJECT>
+    <ID name="HTTP Methods" mc="Infrastructure.Profile" uid="0068b5ea-cc6b-45ed-88b5-fa3a68dc3875"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="ce0b56a2-13f4-4bea-af42-9dbd8b799027"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[HTTP Methods]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="POST" mc="Infrastructure.Stereotype" uid="63b32901-cd1f-4870-a25c-a46dee310f3a"/>
+        <COMPID name="GET" mc="Infrastructure.Stereotype" uid="a6ee5aeb-d4db-4108-926e-a249e5191475"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

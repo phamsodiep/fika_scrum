@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="HTTP Status Codes" version="4">
+  <OBJECT>
+    <ID name="HTTP Status Codes" mc="Infrastructure.Profile" uid="7e541e89-9e75-490f-93a6-5ff0aae0acf7"/>
+    <PID name="LocalModule" mc="Infrastructure.ModuleComponent" uid="ce0b56a2-13f4-4bea-af42-9dbd8b799027"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[HTTP Status Codes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="200 OK" mc="Infrastructure.Stereotype" uid="e4c0517f-d2fe-47eb-9ba0-ac0b15b47f38"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
