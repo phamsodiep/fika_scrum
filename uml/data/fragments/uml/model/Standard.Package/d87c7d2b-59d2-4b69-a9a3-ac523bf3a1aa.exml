@@ -113,14 +113,18 @@
         <COMPID name="Backlog" mc="Standard.Class" uid="eb9de7fc-0339-477f-bc5c-948a9d98d5e3"/>
         <COMPID name="Backlog Page" mc="Standard.Class" uid="8e06465a-3207-40cf-8c0d-d498fe5b709c"/>
         <COMPID name="User Story Page" mc="Standard.Class" uid="de8c65ae-859d-4c0e-a675-a545a7ab7920"/>
-        <COMPID name="Login Page" mc="Standard.Class" uid="f642344c-24e3-487b-b560-1bf5685f589a"/>
+        <COMPID name="Sign in Page" mc="Standard.Class" uid="f642344c-24e3-487b-b560-1bf5685f589a"/>
         <COMPID name="Sign up Page" mc="Standard.Class" uid="2e8ad8c5-6e83-4e8d-a420-97fdf61891fb"/>
         <COMPID name="Roles Page" mc="Standard.Class" uid="baf820a2-c3c2-4c93-a7ca-815d7e6d282f"/>
         <COMPID name="Role Section" mc="Standard.Class" uid="72b8a1b8-be5a-443c-9c42-0572f5eb3e53"/>
         <COMPID name="Role" mc="Standard.Class" uid="18faccd1-2486-40f6-a555-017050aa4440"/>
+        <COMPID name="Home Page" mc="Standard.Class" uid="89e81f7b-aba9-4a15-86e9-f5cf6196d0cc"/>
+        <COMPID name="Page" mc="Standard.Interface" uid="bb1636e1-555b-48c5-8c3c-d90e0eca9ef2"/>
+        <COMPID name="Api" mc="Standard.Actor" uid="6b82e3f4-e266-4e7c-a568-60c5887e6b9c"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Domain Model" mc="Standard.ClassDiagram" uid="3571199f-812c-4eed-9fe8-762a5aacc2f2"/>
+        <COMPID name="Sitemap" mc="Standard.ClassDiagram" uid="a110b50f-a25f-4e2e-b8a9-d37fa572bc34"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

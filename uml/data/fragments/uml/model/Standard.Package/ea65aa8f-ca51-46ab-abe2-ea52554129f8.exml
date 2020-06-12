@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Redux" version="4">
+  <OBJECT>
+    <ID name="Redux" mc="Standard.Package" uid="ea65aa8f-ca51-46ab-abe2-ea52554129f8"/>
+    <PID name="Design" mc="Standard.Package" uid="444522eb-9dad-4438-91e6-672b18201c07"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Redux]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="State" mc="Standard.Class" uid="c7aebc0f-8fda-4b4e-bdc0-cb6677ac81f2"/>
+        <COMPID name="Store" mc="Standard.Class" uid="8066abc7-d215-4da3-9824-ae46ca21785e"/>
+        <COMPID name="Reducer" mc="Standard.Interface" uid="3b0ee498-85c3-4636-a1cf-2e5531396ea4"/>
+        <COMPID name="Action" mc="Standard.Class" uid="dafdf7fc-5a29-4824-9549-7bbd7a5903f3"/>
+        <COMPID name="Redux" mc="Standard.Actor" uid="83db1d97-60a0-43e4-80bf-fefa37e1011d"/>
+        <COMPID name="Axios Middleware" mc="Standard.Package" uid="8b352e7c-9fcc-4f37-931c-0b09fe47755f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Data classes" mc="Standard.ClassDiagram" uid="fb3814a6-7f89-4d05-92e1-068c48544f8c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

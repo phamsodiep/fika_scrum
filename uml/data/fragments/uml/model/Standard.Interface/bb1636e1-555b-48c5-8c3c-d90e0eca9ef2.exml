@@ -1,17 +1,15 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sign in Page" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Page" version="4">
   <OBJECT>
-    <ID name="Sign in Page" mc="Standard.Class" uid="f642344c-24e3-487b-b560-1bf5685f589a"/>
+    <ID name="Page" mc="Standard.Interface" uid="bb1636e1-555b-48c5-8c3c-d90e0eca9ef2"/>
     <PID name="Domain Model" mc="Standard.Package" uid="d87c7d2b-59d2-4b69-a9a3-ac523bf3a1aa"/>
     <ATTRIBUTES>
-      <ATT name="IsActive">false</ATT>
-      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
-      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Sign in Page]]></ATT>
+      <ATT name="Name"><![CDATA[Page]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

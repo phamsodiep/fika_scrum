@@ -10,7 +10,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Model">
-        <COMPID name="uml" mc="Standard.Package" uid="6a4da287-5a9b-496e-9484-1048973bd50e"/>
+        <COMPID name="BA" mc="Standard.Package" uid="6a4da287-5a9b-496e-9484-1048973bd50e"/>
+        <COMPID name="TA" mc="Standard.Package" uid="99e845ba-ea6a-44dc-a2db-7060878eab37"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="uml" mc="Infrastructure.DiagramSet" uid="3551fb6a-78ca-4ce5-83bd-1e4245e581de"/>

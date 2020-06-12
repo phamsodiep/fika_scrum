@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Axios Middleware" version="4">
+  <OBJECT>
+    <ID name="Axios Middleware" mc="Standard.Package" uid="8b352e7c-9fcc-4f37-931c-0b09fe47755f"/>
+    <PID name="Redux" mc="Standard.Package" uid="ea65aa8f-ca51-46ab-abe2-ea52554129f8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Axios Middleware]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Request" mc="Standard.Class" uid="395e85a3-9860-464d-abb2-54509a97fba6"/>
+        <COMPID name="Payload" mc="Standard.Class" uid="560d4935-190a-49f0-ae9b-0fa22f9874e5"/>
+        <COMPID name="Api Action" mc="Standard.Class" uid="9017d766-f95d-40f8-8118-1781297e6865"/>
+        <COMPID name="Actions" mc="Standard.Package" uid="5ac28b4b-d724-4060-9518-2cdc120b8e59"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

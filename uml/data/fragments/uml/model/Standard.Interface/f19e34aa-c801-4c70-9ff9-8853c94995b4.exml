@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JSX Fragment" version="4">
+  <OBJECT>
+    <ID name="JSX Fragment" mc="Standard.Interface" uid="f19e34aa-c801-4c70-9ff9-8853c94995b4"/>
+    <PID name="Design" mc="Standard.Package" uid="444522eb-9dad-4438-91e6-672b18201c07"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[JSX Fragment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

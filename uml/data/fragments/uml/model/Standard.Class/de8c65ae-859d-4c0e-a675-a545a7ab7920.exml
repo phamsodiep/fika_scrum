@@ -15,6 +15,21 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="8a6eef7c-e59c-4024-88bc-a66d9ef72147"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Backlog Page" mc="Standard.Class" uid="8e06465a-3207-40cf-8c0d-d498fe5b709c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <LINK relation="Extension">
         <ID name="Boundary" mc="Infrastructure.Stereotype" uid="c802cf87-c87d-4cde-ab00-bda13d9ac3f0"/>
       </LINK>

@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Roles Page" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Api Action" version="4">
   <OBJECT>
-    <ID name="Roles Page" mc="Standard.Class" uid="baf820a2-c3c2-4c93-a7ca-815d7e6d282f"/>
-    <PID name="Domain Model" mc="Standard.Package" uid="d87c7d2b-59d2-4b69-a9a3-ac523bf3a1aa"/>
+    <ID name="Api Action" mc="Standard.Class" uid="9017d766-f95d-40f8-8118-1781297e6865"/>
+    <PID name="Axios Middleware" mc="Standard.Package" uid="8b352e7c-9fcc-4f37-931c-0b09fe47755f"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Roles Page]]></ATT>
+      <ATT name="Name"><![CDATA[Api Action]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="role Section" mc="Standard.AssociationEnd" uid="800d0929-89d7-44f0-859a-d98ca3ee16a2"/>
+          <ID name="payload" mc="Standard.AssociationEnd" uid="cb742434-9b2c-45f5-9529-c6164411c879"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsComposition</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -25,21 +25,21 @@
             <ATT name="IsDerived">false</ATT>
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[role Section]]></ATT>
+            <ATT name="Name"><![CDATA[payload]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Role Section" mc="Standard.Class" uid="72b8a1b8-be5a-443c-9c42-0572f5eb3e53"/>
+              <ID name="Payload" mc="Standard.Class" uid="560d4935-190a-49f0-ae9b-0fa22f9874e5"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="b66a8093-4afe-4157-ab83-99cb274a027d"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="34313c49-55c7-489d-a445-e301383c2a69"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -57,11 +57,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="role Section" mc="Standard.AssociationEnd" uid="800d0929-89d7-44f0-859a-d98ca3ee16a2"/>
+                    <COMPID name="payload" mc="Standard.AssociationEnd" uid="cb742434-9b2c-45f5-9529-c6164411c879"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="92d70264-cb40-41f4-9f42-284d69436c53"/>
+                      <ID name="" mc="Standard.Association" uid="a18717fc-7890-4cba-8255-32275e10b294"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -73,14 +73,14 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="92d70264-cb40-41f4-9f42-284d69436c53"/>
+              <COMPID name="" mc="Standard.Association" uid="a18717fc-7890-4cba-8255-32275e10b294"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Parent">
         <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="bf8ff573-29cf-49c2-ba62-e88760cbfc92"/>
+          <ID name="Generalization" mc="Standard.Generalization" uid="b0845c81-1347-410d-b78e-792af6cb24f1"/>
           <ATTRIBUTES>
             <ATT name="Discriminator"></ATT>
             <ATT name="Name"><![CDATA[Generalization]]></ATT>
@@ -88,14 +88,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="Home Page" mc="Standard.Class" uid="89e81f7b-aba9-4a15-86e9-f5cf6196d0cc"/>
+              <ID name="Action" mc="Standard.Class" uid="dafdf7fc-5a29-4824-9549-7bbd7a5903f3"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <LINK relation="Extension">
-        <ID name="Boundary" mc="Infrastructure.Stereotype" uid="c802cf87-c87d-4cde-ab00-bda13d9ac3f0"/>
-      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

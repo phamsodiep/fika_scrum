@@ -15,6 +15,21 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="2138737e-0150-46f1-95b8-0d8edeccab87"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="Projects Dashboard" mc="Standard.Class" uid="173265c1-e4ff-42de-bceb-c0a9117b7da5"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <LINK relation="Extension">
         <ID name="Boundary" mc="Infrastructure.Stereotype" uid="c802cf87-c87d-4cde-ab00-bda13d9ac3f0"/>
       </LINK>

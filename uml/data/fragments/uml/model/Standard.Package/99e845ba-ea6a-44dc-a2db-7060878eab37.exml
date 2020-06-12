@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TA" version="4">
+  <OBJECT>
+    <ID name="TA" mc="Standard.Package" uid="99e845ba-ea6a-44dc-a2db-7060878eab37"/>
+    <PID name="uml" mc="Standard.Project" uid="79e27996-cd48-4d6d-95e7-aa0e41277b39"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[TA]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Front end" mc="Standard.Package" uid="74c4c124-175d-45bd-8965-f97315a13ff4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

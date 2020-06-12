@@ -1,11 +1,9 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Api" version="4">
   <OBJECT>
-    <ID name="Api" mc="Standard.Class" uid="006e3e0c-123d-4f60-9222-5020f5532a3d"/>
-    <PID name="BA" mc="Standard.Package" uid="6a4da287-5a9b-496e-9484-1048973bd50e"/>
+    <ID name="Api" mc="Standard.Actor" uid="6b82e3f4-e266-4e7c-a568-60c5887e6b9c"/>
+    <PID name="Domain Model" mc="Standard.Package" uid="d87c7d2b-59d2-4b69-a9a3-ac523bf3a1aa"/>
     <ATTRIBUTES>
-      <ATT name="IsActive">false</ATT>
-      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>

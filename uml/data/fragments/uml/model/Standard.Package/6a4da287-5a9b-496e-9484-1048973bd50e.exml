@@ -70,7 +70,7 @@
               <ID name="User" mc="Standard.Actor" uid="529dc7b0-d4aa-4360-9262-f0dee5be3afd"/>
             </LINK>
             <LINK relation="InformationTarget">
-              <ID name="Login Page" mc="Standard.Class" uid="f642344c-24e3-487b-b560-1bf5685f589a"/>
+              <ID name="Sign in Page" mc="Standard.Class" uid="f642344c-24e3-487b-b560-1bf5685f589a"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -155,7 +155,6 @@
         <COMPID name="Login" mc="Standard.UseCase" uid="6fe74856-8594-4d7b-aed6-62652b27d556"/>
         <COMPID name="List Projects" mc="Standard.UseCase" uid="e8dae66d-d098-45a4-b9db-3246386d67fe"/>
         <COMPID name="Tea Scrum" mc="Standard.Class" uid="ba467c2e-da6f-49d3-8864-758559c776ce"/>
-        <COMPID name="Api" mc="Standard.Class" uid="006e3e0c-123d-4f60-9222-5020f5532a3d"/>
         <COMPID name="Domain Model" mc="Standard.Package" uid="d87c7d2b-59d2-4b69-a9a3-ac523bf3a1aa"/>
         <COMPID name="Administrator" mc="Standard.Actor" uid="a291a26f-6a27-4bd3-9d51-df3fd55690f8"/>
       </COMP>

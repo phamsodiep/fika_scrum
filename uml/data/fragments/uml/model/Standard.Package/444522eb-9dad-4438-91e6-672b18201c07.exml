@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Design" version="4">
+  <OBJECT>
+    <ID name="Design" mc="Standard.Package" uid="444522eb-9dad-4438-91e6-672b18201c07"/>
+    <PID name="Front end" mc="Standard.Package" uid="74c4c124-175d-45bd-8965-f97315a13ff4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Design]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="ef8d6ac1-59bd-45e0-845c-f9c5ed8a6726"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Page" mc="Standard.Interface" uid="718a98a8-6e9d-4dfe-ab25-72ff9eb4e31f"/>
+        <COMPID name="Sign in Page" mc="Standard.Class" uid="928b9ef3-62f6-42d8-9f92-234a8ce2f3c0"/>
+        <COMPID name="Home Page" mc="Standard.Class" uid="e4744f57-d29e-47ef-9e21-6acc7f669ef4"/>
+        <COMPID name="Copyright" mc="Standard.Class" uid="c0dbedd0-377a-4f45-8517-11da4a970d2b"/>
+        <COMPID name="JSX Fragment" mc="Standard.Interface" uid="f19e34aa-c801-4c70-9ff9-8853c94995b4"/>
+        <COMPID name="Redux" mc="Standard.Package" uid="ea65aa8f-ca51-46ab-abe2-ea52554129f8"/>
+        <COMPID name="App" mc="Standard.Class" uid="cabc9e30-4bfd-48fd-9ce5-d6ae90578945"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="UI Classes" mc="Standard.ClassDiagram" uid="3ad991f2-6ccd-43a9-b52a-759d75436af5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
