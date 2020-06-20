@@ -30,6 +30,25 @@ class StateManager {
               user: action.payload.data
             }
           );
+
+        case "LOAD_PRJS_FAIL":
+          return Object.assign(
+            {},
+            state,
+            {
+              errorMessage: "Load project failure"
+            }
+          );
+
+        case "LOAD_PRJS_SUCCESS":
+          return Object.assign(
+            {},
+            state,
+            {
+              projects: action.payload.data
+            }
+          );
+
         default:
           return state;
       }
@@ -45,6 +64,36 @@ class StateManager {
         axiosMiddleware(client)
       )
     );
+
+    this.previousState = this.store.getState();
+    this.unsubscribe = this.store.subscribe(this.onStateChange);
+  }
+
+  onStateChange = () => {
+    let previousState = this.previousState;
+    let state = this.store.getState();
+    this.previousState = state;
+
+    if (previousState.user !== state.user) {
+      this.loadProjects();
+    }
+  };
+
+  loadProjects() {
+    this.store.dispatch({
+      type: "LOAD_PRJS",
+      payload: {
+        request: {
+          method: "GET",
+          url: "/projects",
+          data: {
+            member: this.store.getState().user.id,
+            order_by: "user_order",
+            slight: true
+          }
+        }
+      }
+    });
   }
 }
 
