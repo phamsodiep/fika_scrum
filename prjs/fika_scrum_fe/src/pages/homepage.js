@@ -2,7 +2,15 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
+import ProjectsPage from './projects_page.js';
+import UserStoriesPage from './user_stories_page.js';
 import { ApplicationBar, AsideMenu } from './homepagecomponents.js';
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  Switch,
+} from 'react-router-dom';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -12,6 +20,9 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function HomePage(props) {
+  const mainContainerStyle = {
+    paddingTop: "40px"
+  };
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
   const handleDrawerOpen = () => {
@@ -22,17 +33,28 @@ export default function HomePage(props) {
   };
 
   return (
-    <div className={classes.root}>
-        <CssBaseline />
-        <ApplicationBar open={open} onOpen={handleDrawerOpen} />
-        <AsideMenu open={open} onClose={handleDrawerClose}>
-            <Divider />
-            List1
+    <Router>
+        <div className={classes.root}>
+            <CssBaseline />
+            <ApplicationBar open={open} onOpen={handleDrawerOpen} />
+            <AsideMenu open={open} onClose={handleDrawerClose}>
+                <Divider />
+                <Link to="/">Projects</Link> <br />
+                <Link to="/uss">User stories</Link>
 
-            <Divider />
-            List2
-        </AsideMenu>
-    </div>
+                <Divider />
+                List2
+            </AsideMenu>
+            <main>
+                <div style={mainContainerStyle}>
+                    <Switch>
+                        <Route path="/uss" component={UserStoriesPage} />
+                        <Route path="/" component={ProjectsPage} />
+                    </Switch>
+                </div>
+            </main>
+        </div>
+    </Router>
   );
 }
 
