@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
-import ProjectsPage from './projects_page.js';
+import ProjectsDashboard from './projects_dashboard.js';
 import UserStoriesPage from './user_stories_page.js';
 import { ApplicationBar, AsideMenu } from './homepagecomponents.js';
 import {
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function HomePage(props) {
   const mainContainerStyle = {
-    paddingTop: "40px"
+    paddingTop: "70px"
   };
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);
@@ -49,7 +49,7 @@ export default function HomePage(props) {
                 <div style={mainContainerStyle}>
                     <Switch>
                         <Route path="/uss" component={UserStoriesPage} />
-                        <Route path="/" component={ProjectsPage} />
+                        <Route path="/" component={ProjectsDashboard} />
                     </Switch>
                 </div>
             </main>

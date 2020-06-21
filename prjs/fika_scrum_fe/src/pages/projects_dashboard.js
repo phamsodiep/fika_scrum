@@ -5,7 +5,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-function ProjectsPage(props) {
+function ProjectsDashboard(props) {
   const projs = Array.isArray(props.projects) ? (
     <div>
         {props.projects.map((prj) => (
@@ -29,5 +29,5 @@ const stateToPropsMap = (state) => {
    };
 };
 
-export default connect(stateToPropsMap, null)(ProjectsPage);
+export default connect(stateToPropsMap, null)(ProjectsDashboard);
 
