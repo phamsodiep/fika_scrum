@@ -1,17 +1,23 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Reducer" version="4">
   <OBJECT>
-    <ID name="Reducer" mc="Standard.Interface" uid="3b0ee498-85c3-4636-a1cf-2e5531396ea4"/>
+    <ID name="Reducer" mc="Standard.Class" uid="fe01ef3a-e24e-4ef3-ab57-6ad057453365"/>
     <PID name="Redux" mc="Standard.Package" uid="ea65aa8f-ca51-46ab-abe2-ea52554129f8"/>
     <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
       <ATT name="IsElementary">false</ATT>
-      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
       <ATT name="Name"><![CDATA[Reducer]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
-    <DEPENDENCIES></DEPENDENCIES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <ID name="Boundary" mc="Infrastructure.Stereotype" uid="c802cf87-c87d-4cde-ab00-bda13d9ac3f0"/>
+      </LINK>
+    </DEPENDENCIES>
   </OBJECT>
 </EXT>

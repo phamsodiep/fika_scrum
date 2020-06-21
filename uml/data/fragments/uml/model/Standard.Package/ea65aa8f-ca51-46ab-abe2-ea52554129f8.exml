@@ -16,10 +16,12 @@
       <COMP relation="OwnedElement">
         <COMPID name="State" mc="Standard.Class" uid="c7aebc0f-8fda-4b4e-bdc0-cb6677ac81f2"/>
         <COMPID name="Store" mc="Standard.Class" uid="8066abc7-d215-4da3-9824-ae46ca21785e"/>
-        <COMPID name="Reducer" mc="Standard.Interface" uid="3b0ee498-85c3-4636-a1cf-2e5531396ea4"/>
         <COMPID name="Action" mc="Standard.Class" uid="dafdf7fc-5a29-4824-9549-7bbd7a5903f3"/>
         <COMPID name="Redux" mc="Standard.Actor" uid="83db1d97-60a0-43e4-80bf-fefa37e1011d"/>
         <COMPID name="Axios Middleware" mc="Standard.Package" uid="8b352e7c-9fcc-4f37-931c-0b09fe47755f"/>
+        <COMPID name="Reducer" mc="Standard.Class" uid="fe01ef3a-e24e-4ef3-ab57-6ad057453365"/>
+        <COMPID name="Actions" mc="Standard.Package" uid="5ac28b4b-d724-4060-9518-2cdc120b8e59"/>
+        <COMPID name="UI Action" mc="Standard.Class" uid="60436d6c-95bc-4f19-b9fc-5d24a9633c7d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Data classes" mc="Standard.ClassDiagram" uid="fb3814a6-7f89-4d05-92e1-068c48544f8c"/>

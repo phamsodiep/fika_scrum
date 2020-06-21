@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Tea Scrum" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Fika Scrum" version="4">
   <OBJECT>
-    <ID name="Tea Scrum" mc="Standard.Class" uid="ba467c2e-da6f-49d3-8864-758559c776ce"/>
-    <PID name="BA" mc="Standard.Package" uid="6a4da287-5a9b-496e-9484-1048973bd50e"/>
+    <ID name="Fika Scrum" mc="Standard.Class" uid="ba467c2e-da6f-49d3-8864-758559c776ce"/>
+    <PID name="Domain Model" mc="Standard.Package" uid="d87c7d2b-59d2-4b69-a9a3-ac523bf3a1aa"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Tea Scrum]]></ATT>
+      <ATT name="Name"><![CDATA[Fika Scrum]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

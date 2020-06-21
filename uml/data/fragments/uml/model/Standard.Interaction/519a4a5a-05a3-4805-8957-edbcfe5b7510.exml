@@ -481,13 +481,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="projects(user id, auth token)" mc="Standard.Message" uid="68ce9067-9b54-479b-ae1b-259216cfe394"/>
+                <ID name="projects(user id)" mc="Standard.Message" uid="68ce9067-9b54-479b-ae1b-259216cfe394"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ASyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[6]]></ATT>
-                  <ATT name="Name"><![CDATA[projects(user id, auth token)]]></ATT>
+                  <ATT name="Name"><![CDATA[projects(user id)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -659,88 +659,6 @@
                 <ID name=": Api" mc="Standard.BindableInstance" uid="f444dfd5-cee5-495d-ba98-a1a12c8fa52b"/>
               </REFOBJ>
             </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="OwnedCollaboration">
-        <OBJECT>
-          <ID name="locals" mc="Standard.Collaboration" uid="b7e4db19-7728-45f2-ab4a-83f15df28ad3"/>
-          <ATTRIBUTES>
-            <ATT name="IsConcurrent">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="IsLeaf">false</ATT>
-            <ATT name="IsRoot">false</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[locals]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Declared">
-              <OBJECT>
-                <ID name="r" mc="Standard.BindableInstance" uid="9e24d52d-b031-45a6-8800-ebd63781abfc"/>
-                <ATTRIBUTES>
-                  <ATT name="IsConstant">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[r]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="User" mc="Standard.Actor" uid="529dc7b0-d4aa-4360-9262-f0dee5be3afd"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="r1" mc="Standard.BindableInstance" uid="d8e8a21e-2937-4e2b-a1f8-b3ffedc00d93"/>
-                <ATTRIBUTES>
-                  <ATT name="IsConstant">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[r1]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="User" mc="Standard.Actor" uid="529dc7b0-d4aa-4360-9262-f0dee5be3afd"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="" mc="Standard.BindableInstance" uid="8375ed1e-a646-49d1-87e7-8d550a60198e"/>
-                <ATTRIBUTES>
-                  <ATT name="IsConstant">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Value"></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="Tea Scrum" mc="Standard.Class" uid="ba467c2e-da6f-49d3-8864-758559c776ce"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name=": Api" mc="Standard.BindableInstance" uid="f444dfd5-cee5-495d-ba98-a1a12c8fa52b"/>
-                <ATTRIBUTES>
-                  <ATT name="IsConstant">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[: Api]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="Api" mc="Standard.Actor" uid="6b82e3f4-e266-4e7c-a568-60c5887e6b9c"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

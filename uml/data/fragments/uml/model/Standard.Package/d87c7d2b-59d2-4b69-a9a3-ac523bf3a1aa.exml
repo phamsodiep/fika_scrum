@@ -22,7 +22,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="InformationSource">
-              <ID name="User" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
+              <ID name="User2" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
             </LINK>
             <LINK relation="InformationTarget">
               <ID name="Projects Dashboard" mc="Standard.Class" uid="173265c1-e4ff-42de-bceb-c0a9117b7da5"/>
@@ -70,7 +70,7 @@
               <ID name="Sign up Page" mc="Standard.Class" uid="2e8ad8c5-6e83-4e8d-a420-97fdf61891fb"/>
             </LINK>
             <LINK relation="InformationTarget">
-              <ID name="User" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
+              <ID name="User2" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -107,7 +107,7 @@
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="User Story" mc="Standard.Class" uid="78b45052-e328-42d9-8921-1e98422ced4f"/>
-        <COMPID name="User" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
+        <COMPID name="User2" mc="Standard.Class" uid="9aec4690-acfc-498f-af86-a6578e3a010c"/>
         <COMPID name="Project" mc="Standard.Class" uid="085834a3-4e1f-4902-b30d-194d58d8f134"/>
         <COMPID name="Projects Dashboard" mc="Standard.Class" uid="173265c1-e4ff-42de-bceb-c0a9117b7da5"/>
         <COMPID name="Backlog" mc="Standard.Class" uid="eb9de7fc-0339-477f-bc5c-948a9d98d5e3"/>
@@ -121,6 +121,10 @@
         <COMPID name="Home Page" mc="Standard.Class" uid="89e81f7b-aba9-4a15-86e9-f5cf6196d0cc"/>
         <COMPID name="Page" mc="Standard.Interface" uid="bb1636e1-555b-48c5-8c3c-d90e0eca9ef2"/>
         <COMPID name="Api" mc="Standard.Actor" uid="6b82e3f4-e266-4e7c-a568-60c5887e6b9c"/>
+        <COMPID name="Fika Scrum" mc="Standard.Class" uid="ba467c2e-da6f-49d3-8864-758559c776ce"/>
+        <COMPID name="User" mc="Standard.Actor" uid="529dc7b0-d4aa-4360-9262-f0dee5be3afd"/>
+        <COMPID name="Administrator" mc="Standard.Actor" uid="a291a26f-6a27-4bd3-9d51-df3fd55690f8"/>
+        <COMPID name="Authenticated User" mc="Standard.Actor" uid="d0b23854-2a19-4818-aed2-2fdd0009496a"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Domain Model" mc="Standard.ClassDiagram" uid="3571199f-812c-4eed-9fe8-762a5aacc2f2"/>

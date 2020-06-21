@@ -17,7 +17,6 @@
         <COMPID name="Request" mc="Standard.Class" uid="395e85a3-9860-464d-abb2-54509a97fba6"/>
         <COMPID name="Payload" mc="Standard.Class" uid="560d4935-190a-49f0-ae9b-0fa22f9874e5"/>
         <COMPID name="Api Action" mc="Standard.Class" uid="9017d766-f95d-40f8-8118-1781297e6865"/>
-        <COMPID name="Actions" mc="Standard.Package" uid="5ac28b4b-d724-4060-9518-2cdc120b8e59"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

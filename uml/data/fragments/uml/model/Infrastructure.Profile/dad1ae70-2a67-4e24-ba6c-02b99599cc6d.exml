@@ -12,6 +12,8 @@
         <COMPID name="Boundary" mc="Infrastructure.Stereotype" uid="c802cf87-c87d-4cde-ab00-bda13d9ac3f0"/>
         <COMPID name="Controller" mc="Infrastructure.Stereotype" uid="1735064c-bb1b-4050-9862-7fa13286911d"/>
         <COMPID name="Entity" mc="Infrastructure.Stereotype" uid="3627c7f7-647e-4c5e-8abf-e4fa460bdf68"/>
+        <COMPID name="Part" mc="Infrastructure.Stereotype" uid="4391cc28-1cd0-4a31-ad5c-47caf0bd69ef"/>
+        <COMPID name="Whole" mc="Infrastructure.Stereotype" uid="ce26e603-27fe-410f-b4fd-0be98d2a9518"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

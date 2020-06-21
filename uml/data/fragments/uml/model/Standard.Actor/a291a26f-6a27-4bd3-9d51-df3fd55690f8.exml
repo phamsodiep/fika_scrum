@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Administrator" version="4">
   <OBJECT>
     <ID name="Administrator" mc="Standard.Actor" uid="a291a26f-6a27-4bd3-9d51-df3fd55690f8"/>
-    <PID name="BA" mc="Standard.Package" uid="6a4da287-5a9b-496e-9484-1048973bd50e"/>
+    <PID name="Domain Model" mc="Standard.Package" uid="d87c7d2b-59d2-4b69-a9a3-ac523bf3a1aa"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -23,7 +23,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="SuperType">
-              <ID name="User" mc="Standard.Actor" uid="529dc7b0-d4aa-4360-9262-f0dee5be3afd"/>
+              <ID name="Authenticated User" mc="Standard.Actor" uid="d0b23854-2a19-4818-aed2-2fdd0009496a"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

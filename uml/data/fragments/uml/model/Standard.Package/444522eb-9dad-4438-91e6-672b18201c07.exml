@@ -13,9 +13,6 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
-      <COMP relation="OwnedBehavior">
-        <COMPID name="Interaction" mc="Standard.Interaction" uid="ef8d6ac1-59bd-45e0-845c-f9c5ed8a6726"/>
-      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Page" mc="Standard.Interface" uid="718a98a8-6e9d-4dfe-ab25-72ff9eb4e31f"/>
         <COMPID name="Sign in Page" mc="Standard.Class" uid="928b9ef3-62f6-42d8-9f92-234a8ce2f3c0"/>
@@ -24,6 +21,10 @@
         <COMPID name="JSX Fragment" mc="Standard.Interface" uid="f19e34aa-c801-4c70-9ff9-8853c94995b4"/>
         <COMPID name="Redux" mc="Standard.Package" uid="ea65aa8f-ca51-46ab-abe2-ea52554129f8"/>
         <COMPID name="App" mc="Standard.Class" uid="cabc9e30-4bfd-48fd-9ce5-d6ae90578945"/>
+        <COMPID name="Usecase Implementation" mc="Standard.Package" uid="860e56ed-1105-4850-9973-867a7d35cc4f"/>
+        <COMPID name="Projects Dashboard" mc="Standard.Class" uid="dd4b320d-5815-430d-ae7c-e32062399d90"/>
+        <COMPID name="Router" mc="Standard.Interface" uid="436e83a3-4df7-4e14-9812-3cb2fba23e20"/>
+        <COMPID name="State Managerment" mc="Standard.Class" uid="adc2aa36-3819-4b0c-91ba-5c67312981d2"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="UI Classes" mc="Standard.ClassDiagram" uid="3ad991f2-6ccd-43a9-b52a-759d75436af5"/>

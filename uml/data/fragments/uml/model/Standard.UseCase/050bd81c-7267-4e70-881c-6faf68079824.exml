@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="List Projects" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Select Project" version="4">
   <OBJECT>
-    <ID name="List Projects" mc="Standard.UseCase" uid="e8dae66d-d098-45a4-b9db-3246386d67fe"/>
+    <ID name="Select Project" mc="Standard.UseCase" uid="050bd81c-7267-4e70-881c-6faf68079824"/>
     <PID name="Interactions" mc="Standard.Package" uid="1f8116d4-3777-4ec4-822f-074fb4976942"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,16 +9,33 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[List Projects]]></ATT>
+      <ATT name="Name"><![CDATA[Select Project]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="91e9f2ba-97b3-4c05-8ef9-047153046a12"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="List Projects" mc="Standard.UseCase" uid="e8dae66d-d098-45a4-b9db-3246386d67fe"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Infrastructure.Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedBehavior">
-        <COMPID name="List Projects" mc="Standard.Interaction" uid="f996c89b-8f32-4a60-915f-3ec7209efcbf"/>
+        <COMPID name="Select Project" mc="Standard.Interaction" uid="badd0ac3-e9e8-48a9-8f55-dd97558abd2b"/>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="872a291e-ded2-4090-8921-6122d9c53fde"/>
+          <ID name="" mc="Infrastructure.Note" uid="9a40f1bf-34e7-4768-852b-efaa843d8629"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -32,7 +49,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="6491a832-da5b-4222-95ad-61d507e97825"/>
+          <ID name="" mc="Infrastructure.Note" uid="da9f0029-d3c9-4476-bd23-3850ff1cf602"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -46,7 +63,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="a0b04392-8be1-4d36-af78-7ed82a92233f"/>
+          <ID name="" mc="Infrastructure.Note" uid="33ae5d27-c0af-4932-83b0-3d9615675b5f"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -60,7 +77,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="a0a3aedf-8090-4e05-9920-717add419844"/>
+          <ID name="" mc="Infrastructure.Note" uid="18e8ebc7-625c-4e2c-ba72-0f1c3e53a646"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -74,7 +91,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="8893840e-450f-41a3-8fbd-4672e70ff9c5"/>
+          <ID name="" mc="Infrastructure.Note" uid="7b0513c3-9abc-480c-b317-dd8da3d2c87a"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
