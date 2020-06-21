@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -68,24 +69,45 @@ const useAsideMenuStyles = makeStyles((theme) => ({
   }
 }));
 
-export function ApplicationBar(props) {
-  const classes = useAppBarStyles();
-  return (
-      <AppBar position="absolute" className={clsx(classes.appBar, props.open && classes.appBarShift)}>
-          <Toolbar className={classes.toolbar}>
-              <IconButton
-                edge="start"
-                color="inherit"
-                aria-label="open drawer"
-                onClick={props.onOpen}
-                className={clsx(classes.menuButton, props.open && classes.menuButtonHidden)}
-              >
-                  <MenuIcon />
-              </IconButton>
-          </Toolbar>
-      </AppBar>
-  );
-}
+const stateToPropsMap = (state) => {
+  let prjName = "";
+  if (typeof state.projectId !== "number") {
+    return {projectName: prjName};
+  }
+  for (let i = 0; i < state.projects.length; i++) {
+    let prj = state.projects[i];
+    if (prj.id === state.projectId) {
+      prjName = prj.name;
+    }
+  }
+  return {
+    projectName: prjName
+  };
+};
+
+export const ApplicationBar = connect(stateToPropsMap, null)(
+  function (props) {
+    const classes = useAppBarStyles();
+    return (
+        <AppBar position="absolute" className={clsx(classes.appBar, props.open && classes.appBarShift)}>
+            <Toolbar className={classes.toolbar}>
+                <IconButton
+                  edge="start"
+                  color="inherit"
+                  aria-label="open drawer"
+                  onClick={props.onOpen}
+                  className={clsx(classes.menuButton, props.open && classes.menuButtonHidden)}
+                >
+                    <MenuIcon />
+                </IconButton>
+                <div>
+                    {props.projectName}
+                </div>
+            </Toolbar>
+        </AppBar>
+    );
+  }
+);
 
 export function AsideMenu(props) {
   const classes = useAsideMenuStyles();

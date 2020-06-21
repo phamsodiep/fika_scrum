@@ -6,10 +6,14 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
 function ProjectsDashboard(props) {
+  const onSelect = (e, prj) => {
+    props.onSelect(prj.id);
+  };
+
   const projs = Array.isArray(props.projects) ? (
     <div>
         {props.projects.map((prj) => (
-            <ListItem button>
+            <ListItem button onClick={(e) => onSelect(e, prj)}>
                 <ListItemText primary={prj.name} />
             </ListItem>
         ))}
@@ -23,11 +27,26 @@ function ProjectsDashboard(props) {
   );
 }
 
+function selectProject(prjId) {
+  return {
+    type: "SELECT_PRJ",
+    value: prjId
+  };
+}
+
 const stateToPropsMap = (state) => {
-   return {
-      projects: state.projects
-   };
+  return {
+    projects: state.projects
+  };
 };
 
-export default connect(stateToPropsMap, null)(ProjectsDashboard);
+const dispatchToPropsMap = dispatch => {
+  return {
+    onSelect: (prjId) => {
+      dispatch(selectProject(prjId))
+    }
+  }
+};
+
+export default connect(stateToPropsMap, dispatchToPropsMap)(ProjectsDashboard);
 

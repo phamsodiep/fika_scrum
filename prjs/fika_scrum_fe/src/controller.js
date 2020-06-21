@@ -49,6 +49,15 @@ class StateManager {
             }
           );
 
+        case "SELECT_PRJ":
+          return Object.assign(
+            {},
+            state,
+            {
+              projectId: action.value
+            }
+          );
+
         default:
           return state;
       }

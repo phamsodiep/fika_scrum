@@ -4,7 +4,7 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
 import ProjectsDashboard from './projects_dashboard.js';
 import UserStoriesPage from './user_stories_page.js';
-import { ApplicationBar, AsideMenu } from './homepagecomponents.js';
+import { ApplicationBar, AsideMenu } from './homepage_components.js';
 import {
   BrowserRouter as Router,
   Link,
